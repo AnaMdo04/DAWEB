@@ -1,11 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Hola Mundo</title>
+    <title>Inicio - Mi Sitio Web</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <style>
+      body {
+        background-color: #f4f4f4;
+      }
+      nav {
+        background-color: #39424e;
+      }
+      nav a {
+        color: white;
+      }
+      .container {
+        padding-top: 20px;
+      }
+    </style>
   </head>
   <body>
-    <h1>Hola Mundo</h1>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#" class="brand-logo">Mi Sitio Web</a>
+        <ul id="nav-mobile" class="right hide-on-med-and-down">
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Acerca de</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="container">
+      <h1>Bienvenido a Mi Sitio Web</h1>
+      <p>Explora nuestras increíbles características y servicios.</p>
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Servicio 1</span>
+              <p>Descripción del servicio 1.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col s12 m6">
+          <div class="card">
+            <div class="card-content">
+              <span class="card-title">Servicio 2</span>
+              <p>Descripción del servicio 2.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   </body>
 </html>
